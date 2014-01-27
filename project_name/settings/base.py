@@ -140,7 +140,7 @@ FIXTURE_DIRS = (
 
 ########## SECRET CONFIGURATION
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
-SECRET_KEY = r"{{ secret_key }}"
+SECRET_KEY = "{{ secret_key }}"
 ########## END SECRET CONFIGURATION
 
 
@@ -166,8 +166,7 @@ MIDDLEWARE_CLASSES = (
 
 ########## URL CONFIGURATION
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#root-urlconf
-SITE_NAME = os.path.basename(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ROOT_URLCONF = '%s.urls' % SITE_NAME
+ROOT_URLCONF = '{{ project_name }}.urls'
 ########## END URL CONFIGURATION
 
 
