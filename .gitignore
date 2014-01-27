@@ -1,0 +1,17 @@
+*.pyc
+{{ project_name }}/settings/local.py
+libs
+.DS_Store
+
+# Packaging files:
+*.egg*
+
+# Editor temp files:
+*.swp
+
+# Sphinx docs:
+build
+
+# SQLite3 database files:
+*.db
+
